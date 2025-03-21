@@ -27,7 +27,7 @@
 /* Define XGenericEventCookie as forward declaration when
  *xinput2 is not available in order to compile */
 struct XGenericEventCookie;
-typedef struct XGenericEventCookie XGenericEventCookie;
+/* Patched by premake5: Removed redefinition of XGenericEventCookie */
 #endif
 
 extern bool X11_InitXinput2(SDL_VideoDevice *_this);

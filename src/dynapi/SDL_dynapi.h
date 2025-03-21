@@ -36,7 +36,7 @@
    not without this feature. Think hard before turning it off.
 */
 #ifdef SDL_DYNAMIC_API // Tried to force it on the command line?
-#error Nope, you have to edit this file to force this off.
+/* Patched by premake5: Disabled dynamic API */
 #endif
 
 #ifdef SDL_PLATFORM_APPLE
